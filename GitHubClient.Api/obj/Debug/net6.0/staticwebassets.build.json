@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jBONBzefEVjpdtgvkDjKfaZvSFRTdNRZLh52+ZafL8M=",
+  "Source": "GitHubClient.Api",
+  "BasePath": "_content/GitHubClient.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
