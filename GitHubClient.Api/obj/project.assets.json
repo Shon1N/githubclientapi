@@ -544,16 +544,6 @@
         "runtime": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
-      },
-      "GitHubClient.Core/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/GitHubClient.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GitHubClient.Core.dll": {}
-        }
       }
     }
   },
@@ -1697,16 +1687,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "GitHubClient.Core/1.0.0": {
-      "type": "project",
-      "path": "../../GitHubClient.Core/GitHubClient.Core/GitHubClient.Core.csproj",
-      "msbuildProject": "../../GitHubClient.Core/GitHubClient.Core/GitHubClient.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "GitHubClient.Core >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.8",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.8",
       "Microsoft.Extensions.DependencyInjection >= 6.0.0",
@@ -1741,11 +1725,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "D:\\Documents\\Intric SL\\GitHubClient\\GitHubClient.Core\\GitHubClient.Core\\GitHubClient.Core.csproj": {
-              "projectPath": "D:\\Documents\\Intric SL\\GitHubClient\\GitHubClient.Core\\GitHubClient.Core\\GitHubClient.Core.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

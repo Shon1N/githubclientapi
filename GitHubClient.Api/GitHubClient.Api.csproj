@@ -16,7 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\GitHubClient.Core\GitHubClient.Core\GitHubClient.Core.csproj" />
+    <Reference Include="GitHubClient.Core">
+      <HintPath>bin\Core\GitHubClient.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
